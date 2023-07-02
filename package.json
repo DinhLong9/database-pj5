@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": " node index.js"
+    "start": " json-server -p 3002 --watch database.json"
   },
   "dependencies": {
     "cors": "^2.8.5",
